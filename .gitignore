@@ -1,0 +1,26 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados (CSVs, Parquet e bancos locais)
+data/
+*.csv
+*.parquet
+*.duckdb
+
+# Credenciais e variáveis de ambiente
+.env
+*.pem
+.aws/
+
+# Arquivos do editor e do sistema
+.vscode/
+.DS_Store
+Thumbs.db
